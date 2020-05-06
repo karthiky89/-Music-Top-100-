@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0ABF1424608CB600B29FBB /* GenreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0ABF1324608CB600B29FBB /* GenreListViewController.swift */; };
+		BC0ABF1624609BFB00B29FBB /* GenreListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0ABF1524609BFB00B29FBB /* GenreListTableCell.swift */; };
+		BC0ABF182460AE6400B29FBB /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0ABF172460AE6400B29FBB /* DataModal.swift */; };
+		BC0ABF1A2460B55800B29FBB /* ApiHelper+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0ABF192460B55800B29FBB /* ApiHelper+Ext.swift */; };
+		BC0ABF1C2460E25100B29FBB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0ABF1B2460E25100B29FBB /* DetailsViewController.swift */; };
+		BC0ABF1E2461D48700B29FBB /* StoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0ABF1D2461D48700B29FBB /* StoreButton.swift */; };
 		BCE50DCB2460807A00013402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE50DCA2460807A00013402 /* AppDelegate.swift */; };
 		BCE50DCD2460807A00013402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE50DCC2460807A00013402 /* SceneDelegate.swift */; };
-		BCE50DCF2460807A00013402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE50DCE2460807A00013402 /* ViewController.swift */; };
-		BCE50DD22460807A00013402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE50DD02460807A00013402 /* Main.storyboard */; };
 		BCE50DD42460807D00013402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE50DD32460807D00013402 /* Assets.xcassets */; };
 		BCE50DD72460807D00013402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE50DD52460807D00013402 /* LaunchScreen.storyboard */; };
+		BCE50DDF246085FA00013402 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE50DDE246085FA00013402 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC0ABF1324608CB600B29FBB /* GenreListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreListViewController.swift; sourceTree = "<group>"; };
+		BC0ABF1524609BFB00B29FBB /* GenreListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreListTableCell.swift; sourceTree = "<group>"; };
+		BC0ABF172460AE6400B29FBB /* DataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
+		BC0ABF192460B55800B29FBB /* ApiHelper+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiHelper+Ext.swift"; sourceTree = "<group>"; };
+		BC0ABF1B2460E25100B29FBB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BC0ABF1D2461D48700B29FBB /* StoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreButton.swift; sourceTree = "<group>"; };
 		BCE50DC72460807A00013402 /* nikeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nikeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE50DCA2460807A00013402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE50DCC2460807A00013402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCE50DCE2460807A00013402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCE50DD12460807A00013402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCE50DD32460807D00013402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE50DD62460807D00013402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE50DD82460807D00013402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE50DDE246085FA00013402 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				BCE50DCA2460807A00013402 /* AppDelegate.swift */,
 				BCE50DCC2460807A00013402 /* SceneDelegate.swift */,
-				BCE50DCE2460807A00013402 /* ViewController.swift */,
-				BCE50DD02460807A00013402 /* Main.storyboard */,
+				BC0ABF1D2461D48700B29FBB /* StoreButton.swift */,
+				BC0ABF1524609BFB00B29FBB /* GenreListTableCell.swift */,
+				BC0ABF192460B55800B29FBB /* ApiHelper+Ext.swift */,
+				BC0ABF172460AE6400B29FBB /* DataModal.swift */,
+				BCE50DDE246085FA00013402 /* UIView+Ext.swift */,
+				BC0ABF1324608CB600B29FBB /* GenreListViewController.swift */,
+				BC0ABF1B2460E25100B29FBB /* DetailsViewController.swift */,
 				BCE50DD32460807D00013402 /* Assets.xcassets */,
 				BCE50DD52460807D00013402 /* LaunchScreen.storyboard */,
 				BCE50DD82460807D00013402 /* Info.plist */,
@@ -127,7 +142,6 @@
 			files = (
 				BCE50DD72460807D00013402 /* LaunchScreen.storyboard in Resources */,
 				BCE50DD42460807D00013402 /* Assets.xcassets in Resources */,
-				BCE50DD22460807A00013402 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE50DCF2460807A00013402 /* ViewController.swift in Sources */,
+				BC0ABF1A2460B55800B29FBB /* ApiHelper+Ext.swift in Sources */,
+				BCE50DDF246085FA00013402 /* UIView+Ext.swift in Sources */,
+				BC0ABF182460AE6400B29FBB /* DataModal.swift in Sources */,
+				BC0ABF1C2460E25100B29FBB /* DetailsViewController.swift in Sources */,
+				BC0ABF1624609BFB00B29FBB /* GenreListTableCell.swift in Sources */,
+				BC0ABF1E2461D48700B29FBB /* StoreButton.swift in Sources */,
+				BC0ABF1424608CB600B29FBB /* GenreListViewController.swift in Sources */,
 				BCE50DCB2460807A00013402 /* AppDelegate.swift in Sources */,
 				BCE50DCD2460807A00013402 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BCE50DD02460807A00013402 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCE50DD12460807A00013402 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCE50DD52460807D00013402 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,14 +296,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9BWLRB8LG;
 				INFOPLIST_FILE = nikeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.nikeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = nike.Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +316,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9BWLRB8LG;
 				INFOPLIST_FILE = nikeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.nikeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = nike.Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
